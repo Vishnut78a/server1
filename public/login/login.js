@@ -35,7 +35,9 @@ loginBTN.addEventListener("click",async function(){
     checks whether the given username exists or not  
     if it exists then does the password provided with it matches or not?
     *///192.168.0.105:8080 for mobile
-   const responseBEV = await fetch("http://localhost:8080/login",{
+    //local: http://localhost:8080
+    //render: https://server1-1-0gsu.onrender.com
+   const responseBEV = await fetch("https://server1-1-0gsu.onrender.com/login",{
     method:"POST",
     headers:{
         "Content-type":"application/json"
