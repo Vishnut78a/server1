@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/register/style.css">
+</head>
+<body>
+    <div class="main">      
+        <div id="login">Login</div>    
+        <div class="form-parent">
+            <form action="/userPages" id="form" method="post">
+                <h1 class="loginHeading">REGISTER</h1>
+                <div class="userName-parent" id="inputSpacing"  >
+                    <input type="text" id="userName" name="userName" placeholder="Username">
+                </div>
+                <h6 id="userName-error">Username required!!!</h6>
+
+                <div class="password-parent" id="inputSpacing">
+                    <input type="password" id="password" name="password" placeholder="Create password">
+                    <h5 id="showPassword">Show</h5>
+                </div>
+                <h6 id="password-error">This field is mandatory.</h6>
+
+                <div class="passwordConfirm-parent" id="inputSpacing">
+                    <input type="password" id="passwordConfirm" placeholder="Confirm password">
+                    <h5 id="showPasswordConfirm">Show</h5>
+                </div>
+                <h6 id="error-message">Password must be at least <br>- 8-16 characters long and must contain  &nbsp;&nbsp;of <br> - an UpperCase, <br> - a LowerCase, <br> - a number and <br> - a special character</h6>
+                <h6 id="success-message">Successfully Registered!!</h6>
+                <div id="submit-parent" >
+                    <button id="submit2" type="button">Submit</button>
+                </div>
+                
+            </form>
+        </div>
+        
+    </div>
+    
+    <script type="module" src="/register/script.js" defer></script>
+</body>
+</html>

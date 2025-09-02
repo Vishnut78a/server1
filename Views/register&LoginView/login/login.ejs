@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/login/login.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">   
+        <div id="signUp">Sign UP</div>     
+        <div class="form-parent">
+            <form action="/userPages" id="form" method="post">
+                <h1 id="loginHeading">LOGIN</h1>
+                <div class="credentialsParent">
+                    <input type="text" placeholder="Username" id="userName" class="credentials">
+                </div>
+                <h6 id="username-error">This field is mandatory.</h6>
+                <div class="credentialsParent">
+                    <input type="password" placeholder="Password" id="passWord" class="credentials">
+                    <h5 id="showPassword">Show</h5>
+                </div>
+                <h6 id="password-error">This field is mandatory.</h6>
+                
+                <h6 id="logResultMsg"></h6>
+                <button type="button" id="loginBTN" >LOGIN</button>
+
+                <h4 id="forgotPswd">Forgot Password?</h4>
+            </form>
+        </div>
+        
+    </div>
+    <script type="module" src="/login/login.js" defer></script>
+</body>
+</html>

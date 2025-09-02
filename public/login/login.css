@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: #00c49a;
+    justify-content: center;
+    align-items: center;
+}
+#signUp{
+    position:absolute;
+    top: 10px;
+    right: 10px;
+    color: #00c49a;
+    padding: 8px;
+    border-radius: 7px;
+    background-color: #12192c;
+}
+#form{
+    width: 300px;
+    display: flex;
+    padding: 13px;
+    flex-direction: column;
+    border-radius: 6px;
+    background-color: #12192c;
+    
+}
+#loginHeading{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    color: #FFFFFF;
+}
+#logResultMsg{
+    margin: 7px 0px;
+    color: white;
+}
+#loginBTN{
+    margin: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 7px ;
+    background-color: #00c49a;
+    color: whitesmoke;
+
+}
+.credentialsParent{
+    display: flex;
+    padding: 0px 2px;
+    padding-right: 20px;
+    margin: 2px 0px;
+    border: 1px solid #00c49a;
+    border-radius: 7px;
+    
+}
+#showPassword{
+    color: #00c49a;
+    align-self: center;
+    
+}
+#username-error{
+    color: red;
+    font-weight: 100;
+    display: none;
+}
+#password-error{
+    color: red;
+    font-weight: 100;
+    display: none;
+}
+.credentials{
+    width: 100%;
+    margin: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: none;
+    outline: none;
+    color: #00c49a;
+    background-color: transparent;
+}
+#forgotPswd{
+    margin-top: 12px;
+    color: whitesmoke;
+    align-self: flex-end;
+}

@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    /*background-image: linear-gradient(120deg,  rgba(0, 140, 255, 0.959) ,rgba(206, 21, 122, 0.986) );*/
+    background-color: #00c49a;
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+}
+#login{
+    position:absolute;
+    top: 10px;
+    right: 10px;
+    color: #00c49a;
+    padding: 8px;
+    border-radius: 7px;
+    background-color: #12192c;
+}
+.loginHeading{
+    color: white;
+    padding-bottom: 30px;
+    width: fit-content;
+    align-self: center;
+    
+}       
+.userName-parent{
+    width: 100%;
+    height:fit-content;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border:1px solid #00c49a;
+    border-radius: 7px;
+    padding: 10px;
+}
+.password-parent{
+    width: 100%;
+    height:fit-content;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #00c49a;
+    border-radius: 7px;
+    display: flex;
+    padding: 10px;
+}
+.passwordConfirm-parent{
+    width: 100%;
+    height:fit-content;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border:1px solid #00c49a;
+    border-radius: 7px;
+    display: flex;
+    padding: 10px;
+}
+#submit-parent{
+    width: 100%;
+    height:fit-content;
+    border:1px solid #00c49a;
+    border-radius: 7px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #00c49a
+}
+.form-parent{
+    height: fit-content;
+    padding: 20px;
+    border-radius: 7px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    background-color: #12192c;
+}
+.form{
+    height: fit-content;
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    
+    
+    
+}
+
+#userName{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #00c49a;
+}
+#password{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #00c49a;
+}
+#passwordConfirm{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #00c49a;
+}
+#submit2{
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    background-color: transparent;
+}
+#showPassword{
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #00c49a;
+}
+#showPasswordConfirm{
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #00c49a;
+}
+#error-message{
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-right: 5px;
+    font-weight: 100;
+    display: none;
+    color: red;
+}
+#error-message>h6{
+
+}
+#success-message{
+    color: #00c49a;
+    display: none;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-right: 5px;
+    font-weight: 100;
+}
+#inputSpacing{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#userName-error{
+    color: red;
+    font-weight: 100;
+    display: none;
+}
+#password-error{
+    color: red;
+    font-weight: 100;
+    display: none;
+}
