@@ -28,6 +28,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 app.use("/",userRoutes);
 
+//folder name changed Views---> views
 
 //DB SETUP
 //const mongoAtlasURL = "mongodb+srv://vishnu:vishnu@cluster0.ryckcb3.mongodb.net/";
