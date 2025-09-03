@@ -43,7 +43,9 @@ const responseFEV = frontEndValidation.frontEndValidationRegister(userName,passW
 if(responseFEV.success){
 
 //backend validation& creation
-const responseBEV = await fetch("http://localhost:8080/register",{
+//local: http://localhost:8080
+//render: https://server1-1-0gsu.onrender.com
+const responseBEV = await fetch("https://server1-1-0gsu.onrender.com/register",{
     method: "POST",
     headers:{
         "Content-type": "application/json"

@@ -14,7 +14,9 @@ logOutBTN.addEventListener('mouseup', async function(){
     logOutBTN.style.transform = "scale(1)";
     console.log("adfsafasdfsf");
     
-    let logOut = await fetch("http://localhost:8080/logout",{
+    //https://server1-1-0gsu.onrender.com/logout
+    //http://localhost:8080/logout
+    let logOut = await fetch("https://server1-1-0gsu.onrender.com/logout",{
         method:"POST",
         credentials:"include"
     });
